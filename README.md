@@ -39,13 +39,3 @@ conf/trac.ini :
 
 You can found more details on trac plugin installation in trac documentation :
 http://trac.edgewall.org/wiki/TracPlugins
-
-Screenshots
------------
-
-Here some screenshot of this theme on trac 0.12 :
-
-[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-wiki.png|frame|300px]]
-[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-admin.png|frame|300px]]
-[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-timeline.png|frame|300px]]
-[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-search.png|frame|300px]]
