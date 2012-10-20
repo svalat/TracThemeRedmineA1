@@ -1,0 +1,845 @@
+/*body {*/
+    /*font: normal 9pt Verdana, Arial, Helvetica, sans-serif;*/
+   /* margin: 0;
+    padding: 0;
+    color: #000;
+}*/
+
+/*#PageHeader {
+    background-color: #000;
+    color: #eee;
+    margin: 0;
+    font-size: 16pt;
+    padding: 6px;
+}*/
+
+/*#PageHeader a, #PageHeader a:hover {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background: none;
+}
+
+#PageHeader a:hover {
+    text-decoration: underline;
+}*/
+
+/*#PageHeader ul {*/
+    
+    /*font-size: 8pt;*/
+    /*list-style: none;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*#PageHeader li {
+	float: right;
+    display: inline;
+    padding: 0 6px 0 6px;
+    white-space: nowrap;
+}*/
+
+/*#MenuBar {
+    background: url("menu-tile.gif") repeat-x;
+    background-color: #4f9413;
+    height: 37px;
+    margin: 0;
+    padding: 0px 6px 0 6px;
+    color: #eee;
+    font-weight: bold;
+}*/
+
+/*#MenuBarHighlight {
+    background: url("menu-highlight.png") no-repeat;
+    padding: 10px 0 0 0;
+}
+
+#MenuBar a {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+
+#MenuBar a:hover {
+    color: #fff;
+    background: none;
+}
+
+#MenuBar ul, #SubMenuBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#MenuBar li, #SubMenuBar li {
+    display: inline;
+    border-right: 2px solid #fff;
+    padding: 0 6px 0 6px;
+    white-space: nowrap;
+}
+
+#MenuBar .last, #SubMenuBar .last {
+    border-right: none;
+}
+
+#MenuBar .active a, #SubMenuBar .active a {
+    color: #fff;
+    text-decoration: underline;
+}*/
+
+/*#SubMenuBar {
+    background: #2a2012;
+    color: #eee;
+    font: normal 11px Verdana, Arial, sans-serif;
+    padding: 6px;
+}
+
+#SubMenuBar a, #SubMenuBar a:hover {
+    text-decoration: none;
+    color: #bbb;
+    border: none;
+}*/
+
+/*#SubMenuBar a:hover {
+    color: #fff;
+    background: none;
+}
+
+#MenuBarShadow {
+    background: url("menu-shadow.png") repeat-x;
+    height: 4px;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*#Container {
+    margin-top: 6px;
+    overflow: hidden;
+    padding: 12px;
+}*/
+
+/*#Footer {
+    border-top: 1px solid #bbb;
+    color: #888;
+    font-size: 8t;
+    padding: 12px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    background: url("footer-highlight.png") repeat-x;
+    background-color: #ddd;
+}*/
+
+/*#Footer a {
+    color: #888;
+    text-decoration: underline;
+}*/
+
+/*h1 {
+    font-size: 26pt;
+}*/
+
+/*h2 {
+  font-size: 16pt;
+  background: #f8e9c7;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #f8ba20;
+  margin-top: 24px;
+  padding: 4px;
+}*/
+
+/*h3 {
+
+}*/
+
+/*.wiki a {
+  color: #be3e0b;
+}*/
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+
+/* Documentation extras */
+
+.docbox {
+  padding: 12px 12px 12px 64px;
+  margin: 18px 64px 18px 64px;
+  border-width: 1px 1px 1px 18px;
+  border-style: solid;
+}
+
+.fixme {
+  border-color: #2FF;
+  background: #DFF;
+}
+
+.warning {
+  border-color: #f8ba20;
+  background: #f8e9c7;
+}
+
+.tip {
+  border-color: #699536;
+  background: #dfec93;
+}
+
+.docbox .icon {
+  margin-left: -12px;
+}
+
+/***************************************************************************/
+/********************* MAIN CONTENT **********************/
+body {
+	background: url("bg-grain.png") repeat scroll 0 0 #F0F0F0;
+	font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+	font-size: 12px;
+	color: #484848;
+    margin: 0;
+    padding: 0;
+	min-width:800px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+}
+
+a, a:visited, :link, :link:visited{
+	background-color:none;
+	text-decoration:none;
+	border-bottom:none;
+}
+
+a, a:link, a:visited {
+	color: #005782;
+}
+
+a:hover, *:visited:hover,:link:hover, *:link:hover {
+	background-color:transparent;
+	text-decoration:underline;
+	color: #005782;
+}
+
+h1, h2 {
+	/*margin:0 0 10px;*/
+	/*padding:2px 10px 1px 0;*/
+	color: #222222;
+	font-size:26px;
+	margin-left:0px;
+}
+
+h2 {
+	border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 6px;
+}
+
+h2,h3 {
+	font-size: 16px;
+	background:none;
+}
+
+#content.admin h1 {
+	display:block;
+	float:none;
+	margin-top:6px;
+}
+
+/****************** WIKI *********************/
+.wikipage h1, .wikipage h2,.wikipage h3,.milestone h2,.milestone h3 {
+	/*margin:0 0 10px;*/
+	/*padding:2px 10px 1px 0;*/
+	color: #222222;
+	font-size:26px;
+	margin-left:0px;
+}
+
+.wikipage h2, .milestone h2 {
+	border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 6px;
+}
+
+.wikipage h2,.wikipage h3,.milestone h2,.milestone h3 {
+	font-size: 16px;
+	background:none;
+}
+
+.wikipage {
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.wikipage p {
+	text-align:justify;
+}
+
+a.ext-link .icon {
+	background-image: url("external.png");
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    padding-left: 12px;
+}
+
+h4, .wikipage h3 {
+    border-bottom: 1px dotted #BBBBBB;
+    color: #444444;
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding: 2px 10px 1px 0;
+	border:none;
+}
+
+/****************** FIRST MENU LINE AT TOP OF PAGE ******************/
+#PageHeader ul {
+	/*font-size: 8pt;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#PageHeader li {
+	float: right;
+	display: inline;
+	padding: 0 6px 0 6px;
+	white-space: nowrap;
+}
+
+#PageHeader ul {
+	background: none repeat scroll 0 0 #000000;
+	padding: 7px 10px 2px 20px;
+	color: #FFFFFF;
+	font-size: 0.8em;
+    height: 1.8em;
+}
+
+#PageHeader a, #PageHeader a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-right: 8px;
+	border-bottom: none;
+}
+
+#PageHeader a:visited {
+	text-decoration: none;
+}
+
+#PageHeader a#logo {
+	display:block;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	background: url("bg-header.png") repeat-x scroll 0 0 transparent;
+	height: auto;
+	color: #E0E0E0;
+	font-size: 22px;
+    /*padding: 5px 65px;*/
+    text-shadow: 0 -2px rgba(0, 0, 0, 0.2);
+	
+}
+
+/********************** LINE WITH LOGO *******************/
+#MenuBar {
+	bottom: 0;
+	left: 6px;
+	/*margin-right: -500px;*/
+	/*position: absolute;*/
+}
+
+#MenuBar {
+	background: url("bg.png") repeat-x scroll 0 0 #E0E0E0;
+	height: 40px;
+	left: 0;
+	width: 100%;
+	color: #F8F8F8;
+}
+
+/********************** MAIN MENU BAR ****************************/
+#MenuBar #MenuBarHighlight {
+	margin-top:-12px;
+	padding:0px;
+}
+
+#MenuBar #MenuBarHighlight ul {
+	/*margin-top: 7px;*/
+	padding-left: 15px;
+}
+
+#MenuBar #MenuBarHighlight li {
+	float: left;
+	list-style-type: none;
+	margin: 0 2px 0 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+#MenuBar #MenuBarHighlight li {
+	list-style-type: none;
+	white-space: nowrap;
+}
+
+#MenuBar #MenuBarHighlight li a {
+	background-color: transparent !important;
+	border-radius: 6px 6px 6px 6px;
+	color: #444444;
+	display: block;
+	float: left;
+	font-weight: bold;
+	padding: 12px 12px;
+	text-decoration: none;
+	text-shadow: 0 1px #DDDDDD;
+	margin:0px;
+	border:none;
+}
+
+#MenuBar #MenuBarHighlight li a {
+	background-color: #507AAA;
+	font-weight: bold;
+}
+
+#MenuBar #MenuBarHighlight li a:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+
+#MenuBar #MenuBarHighlight li.active a {
+	background: none repeat scroll 0 0 #FFFFFF;
+	color: #555555;
+}
+
+#MenuBar #MenuBarHighlight li.active a {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: url("selected-tab.png") repeat-x scroll 0 0 transparent;
+	border-color: #666666 -moz-use-text-color -moz-use-text-color #666666;
+	border-style: solid none none solid;
+	border-width: 1px medium medium 1px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) inset;
+	color: #F0F0F0;
+	padding: 5px 12px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	text-shadow: 0 -1px #666666;
+}
+
+#MenuBar #MenuBarHighlight li.active a {
+	background-color: #EEEEEE;
+}
+
+#MenuBar #MenuBarHighlight li a.selected:hover {
+	color: #F0F0F0;
+}
+
+#MenuBar {
+	margin-bottom:15px;
+}
+
+/******************* SUB MENU (history, index...) **********************/
+#Container, {
+	background-color: #FFFFFF;
+	border-right: 1px solid #DDDDDD;
+	margin: 0;
+	padding: 6px 10px 10px;
+	width: 75%;
+	z-index: 10;
+}
+
+#Container {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid silver;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+#Container {
+	/*margin-right: 300px;*/
+	margin-left:10px;
+	margin-right:10px;
+	width: auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.trac-modifiedby {
+	text-align:left;
+	float: left;
+	padding:2px;
+	padding-top:0px;
+}
+
+/*********************** CONTENT *******************/
+#content {
+	border-radius: 0px;
+	border-top:none;
+	border-bottom:none;
+	box-shadow:none;
+}
+
+#SubMenuBar {
+	border-radius: 8px 8px 0px 0px;
+	border-bottom:none;
+}
+
+#altlinks {
+	border-radius: 0px 0px 8px 8px;
+	border-top:none;
+}
+
+#content.roadmap > h1,#content.search > h1, #content.admin > h1, #content.prefs > h1,#content.error > h1 {
+	background: url("smooth-gradient-blue.jpg") repeat scroll 0 0 #EAF2F5;
+	border-bottom: 1px solid #AECCD7;
+	border-top: 1px solid white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	color: #444444;
+	letter-spacing: -1px;
+	margin: 0px -15px -15px;
+	margin-bottom:20px;
+	padding: 12px 20px;
+	text-shadow: 0 1px white;
+}
+
+#content.ticket {
+	width:auto;
+}
+
+/*********************tables **********************/
+table.listing, table.reports{
+	border: 1px solid #E4E4E4;
+	border-collapse: collapse;
+	margin-bottom: 4px;
+	width: 100%;
+}
+
+table.listing th {
+	background-color: #EEEEEE;
+	padding: 4px;
+	white-space: nowrap;
+}
+
+table.listing thead th {
+	border-color: #D7D7D7;
+	border-style: solid;
+	border-width: 1px;
+	font-size:12px;
+}
+
+table.listing tbody td {
+	border: 1px solid #D7D7D7;
+}
+
+table.listing tbody tr:nth-child(odd) {
+	background-color: #F6F7F8;
+}
+
+table.listing thead th {
+	padding: 7px;
+}
+
+table.listing tbody td, table.listing tbody th {
+	padding: 7px;
+}
+
+/********************* pref page *******************/
+#content.prefs #tabcontent
+{
+	clear:none;
+}
+
+#content.prefs #tabs li,#content.prefs #tabs li.active{
+	background:none;
+	border:none;
+}
+
+#content.prefs #tabs li,#content.prefs #tabs #tab_advanced{
+	float:none;
+}
+
+/********************* Sub menu bar ***************/
+#SubMenuBar {
+/* 	float:left; */
+	margin-top:15px;
+}
+
+#SubMenuBar ul {
+    margin-top: 7px;
+	padding:2px;
+/*     padding-left: 15px; */
+}
+
+#SubMenuBar li {
+	list-style-type: none;
+	margin: 0 1em 0 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+	white-space: nowrap;
+	display:inline;
+	/* 	float:left; */
+	color: #AAAAAA;
+}
+
+#SubMenuBar li a {
+	color:#505050;
+	font-size: 0.9em;
+	line-height:1.4em;
+	white-space: nowrap;
+}
+
+#SubMenuBar li a:visited {
+	text-decoration:none;
+}
+
+#SubMenuBar li:hover {
+	color:#333333;
+	text-decoration:underline;
+	background:none;
+}
+
+#SubMenuBar li {
+	border: 1px solid silver;
+	border-radius: 8px 8px 8px 8px;
+	padding:4px;
+	background-color:#F0F0F0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+	color: #AAAAAA;
+	font-size: 0.9em;
+}
+
+#SubMenuBar li:hover {
+	background-color:#E0E0E0;
+}
+
+/*************** BUTTON BAR ******************/
+#delete, #rename, #save{
+	margin:0px;
+}
+
+.buttons input[type="button"], .buttons input[type="submit"] {
+	border:none;
+	background:none;
+	margin:0px;
+	padding:0px;
+	color: #888888;
+	font-size: 0.9em;
+	line-height:1.4em;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+.buttons input[type="button"], .buttons input[type="submit"] {
+	border: 1px solid silver;
+	border-radius: 8px 8px 8px 8px;
+	padding:4px;
+	background-color:#E0E0E0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+	color:#505050;
+}
+
+.buttons input[type="button"]:hover, .buttons input[type="submit"]:hover {
+	background-color:#D0D0D0;
+}
+
+.buttons #modifypage div input[type="submit"]{
+	background-image: url("edit.png");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-bottom: 3px;
+	padding-left: 17px;
+	padding-top: 2px;
+	padding-right:0px;
+}
+
+.buttons #attachfile div input[type="submit"]{
+	background-image: url("attachment.png");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-bottom: 3px;
+	padding-left: 17px;
+	padding-top: 2px;
+	padding-right:0px;
+}
+
+.buttons #rename div input[type="submit"]{
+	background-image: url("move.png");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-bottom: 3px;
+	padding-left: 17px;
+	padding-top: 2px;
+	padding-right:0px;
+}
+
+.buttons div#delete input[type="submit"]{
+	background-image: url("delete.png");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	padding-bottom: 3px;
+	padding-left: 17px;
+	padding-top: 2px;
+	padding-right:0px;
+}
+
+.buttons input:hover {
+	color:#333333;
+	text-decoration:underline;
+	background:none;
+}
+
+/***************** formats ****************/
+#altlinks {
+}
+
+#altlinks h3 {
+	display:td;
+}
+
+#altlinks ul {
+	display:td;
+}
+
+#altlinks ul li{
+/* 	float: right; */
+}
+
+#altlinks a, a:link, #altlinks a:visited {
+	color: #005782;
+}
+
+#altlinks li *:link, #altlinks li *:visited {
+	color: #005782;
+}
+
+#altlinks a:hover, #altlinks *:visited:hover,#altlinks :link:hover {
+	background:none;
+	text-decoration:underline;
+	color: #005782;
+}
+
+/****************** FOOTER ****************/
+#Footer {
+	/*border-top: 1px solid #bbb;*/
+	color: #AAAAAA;
+	font-size: 8t;
+	/*padding: 12px;*/
+	margin:15px;
+	text-align:center;
+	/*margin-top: 32px;
+	margin-bottom: 0px;
+	background: url("footer-highlight.png") repeat-x;*/
+	/*background-color: #ddd;*/
+}
+
+/**************** Some bugfixes ****************/
+/*dt.wiki, dt.wiki a {
+	background-image: url("wiki_edit.png") !important;
+}*/
+
+/**************** side bar *********************/
+#prefs, .wiki-toc{
+	float: right;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 22%;
+	z-index: 9;
+	background: none repeat scroll 0 0 whiteSmoke;
+	border: 1px solid #D9D9D9;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+	padding: 15px 10px 20px 15px !important;
+	width: 260px !important;
+	margin-bottom:15px;
+}
+
+.wiki-toc {
+	margin-left:2em;
+	width: 12em !important;
+	font-size:12px;
+}
+
+/******************* tabs ***********************/
+#tabs {
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 12em;
+	z-index: 9;
+	background: none repeat scroll 0 0 whiteSmoke;
+	border: 1px solid #D9D9D9;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+	padding: 15px 10px 20px 15px !important;
+	margin-right:15px;
+}
+
+#tabs li li.active{
+	background:none;
+	border:none;
+	font-weight:bold;
+}
+
+#tabs ul li{
+    font-size: 14px;
+/*     margin-top: 14px; */
+	color: #222222;
+	font-family: "Lucida Grande",verdana,arial,helvetica,sans-serif;
+}
+
+#tabs ul li ul li {
+	margin-top: 0;
+	font-size: 12px;
+}
+
+#tabcontent {
+	min-height: 35em;
+}
+
+#tabcontent {
+	margin-left:16em;
+	padding-left:0px;
+}
+
+/**************** milestone *********************/
+.milestone .info h2,.milestone .info h3 {
+	/*margin:0 0 10px;*/
+	/*padding:2px 10px 1px 0;*/
+	color: #222222;
+	font-size:26px;
+	margin-left:0px;
+}
+
+.milestone .info h2 {
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 6px;
+}
+
+.milestone .info h2,.milestone .info h3 {
+	font-size: 16px;
+	background:none;
+}
+
+.milestone .info h2 *:link, .milestone .info h2 *:visited {
+	color: #222222;
+}
+
+.milestone .info h2 em {
+    color: #005782;
+    font-style: normal;
+}
+
+/**************** forms ************************/
+form fieldset {
+	border-radius: 8px 8px 8px 8px;
+}
+
+input, textarea {
+	border-radius: 4px 4px 4px 4px;
+}
