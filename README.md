@@ -45,7 +45,7 @@ Screenshots
 
 Here some screenshot of this theme on trac 0.12 :
 
-[[screens/page-wiki.png|frame]]
-[[screens/page-admin.png|frame]]
-[[screens/page-timeline.png|frame]]
-[[screens/page-search.png|frame]]
+[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-wiki.png|frame|300px]]
+[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-admin.png|frame|300px]]
+[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-timeline.png|frame|300px]]
+[[https://raw.github.com/wiki/svalat/TracThemeRedmineA1/screens/page-search.png|frame|300px]]
