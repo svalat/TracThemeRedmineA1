@@ -39,3 +39,13 @@ conf/trac.ini :
 
 You can found more details on trac plugin installation in trac documentation :
 http://trac.edgewall.org/wiki/TracPlugins
+
+Screenshots
+-----------
+
+Here some screenshot of this theme on trac 0.12 :
+
+[[screens/page-wiki.png|frame]]
+[[screens/page-admin.png|frame]]
+[[screens/page-timeline.png|frame]]
+[[screens/page-search.png|frame]]
