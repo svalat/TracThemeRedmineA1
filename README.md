@@ -5,7 +5,7 @@ Description
 -----------
 
 This is a port from redmine to trac of original theme A1 from Kirill Bezrukov 
-for redmine. You can found the original theme on http://redminecrm.com, thanks
+for redmine. You can find the original theme on http://redminecrm.com, thanks
 to him for his great work.
 
 Get the source code
