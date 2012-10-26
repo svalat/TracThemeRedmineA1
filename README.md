@@ -35,11 +35,11 @@ You will get the egg file in dirst directory : dist/RedmineA1Theme-1.0-py2.7.egg
 Now just place this file in your trac plugin directory and enable your theme in 
 conf/trac.ini :
 
-	$ [theme]
-	$ theme = redminea1
-	$
-	$ [components]
-	$ redminea1theme.theme.redminea1theme = enabled
+	[theme]
+	theme = redminea1
+	
+	[components]
+	redminea1theme.theme.redminea1theme = enabled
 
 You can found more details on trac plugin installation in trac documentation :
 http://trac.edgewall.org/wiki/TracPlugins
