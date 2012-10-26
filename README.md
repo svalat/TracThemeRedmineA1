@@ -37,6 +37,9 @@ conf/trac.ini :
 
 	$ [theme]
 	$ theme = redminea1
+	$
+	$ [components]
+	$ redminea1theme.theme.redminea1theme = enabled
 
 You can found more details on trac plugin installation in trac documentation :
 http://trac.edgewall.org/wiki/TracPlugins
